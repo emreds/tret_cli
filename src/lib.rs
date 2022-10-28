@@ -63,11 +63,11 @@ pub fn request(word: &String) -> Result<(), Box<dyn Error>> {
     } else {
         println!(
             "
-            Word: {}, \n
-            Root: {}, \n
-            Derived Language: {}, \n
-            Explanation: {},\n
-            First in History: {},\n
+            Word: {}, 
+            Root: {}, 
+            Derived Language: {}, 
+            Explanation: {},
+            First in History: {},
             Additional Info: {}
             ",
             json_resp.word,
