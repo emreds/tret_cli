@@ -12,6 +12,6 @@ fn main() {
         process::exit(1);
     });
 
-    let response  = tret_cli::request(&config.query);
+    let _response  = tret_cli::request(&config.query);
 
 }
